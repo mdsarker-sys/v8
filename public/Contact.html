@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply Now</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="Contact.css">
+  
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="nav-container">
+     <!-- Replace the existing div with this code -->
+<div class="company-name">
+  <a href="index.html" class="home-button">Cambridge Lead</a>
+</div>
+      <button class="menu-toggle">Menu</button>
+      <ul class="nav-list">
+        <li><a href="apply.html">Apply now</a></li>
+        <li><a href="Scolarship.html">About Us</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Scolarship.html">Scolarship</a></li>
+        <li> <a href="Funding.html"> Funding</a> </a></li>
+        <li> <a href="legal.html"> Legal</a> </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="team-mission">
+    <h2>Our Team's Vision & Mission</h2>
+    <!-- Example for one team member -->
+    <div class="team-member">
+      <img src="vidoes/md.jpg" alt="CEO">
+      <h3>Director</h3>
+      <p>Our mission is to provide unparalleled service and create a sustainable future for our clients.</p>
+      <p class="bio">Md sarker has over 20 years of experience in the industry.</p>
+      <div class="social-media">
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <!-- ... other team members ... -->
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Getting in touch with us is easy and we're always here to help. Whether you have questions about our services, need assistance with an existing project, or are looking to elevate your business to the next level, our team of experts is just a message away. We value your time and strive to provide prompt and meaningful responses to all inquiries. Your satisfaction is our priority, and we look forward to exceeding your expectations. Don't hesitate—reach out to us today and let's create something extraordinary together.</p>
+    
+    <form id="contact-form" action="/contact" method="POST">
+      <!-- Text Input -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+  
+      <!-- Email Input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+  
+      <!-- Phone Number Input -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+  
+      <!-- Radio Buttons -->
+      <fieldset>
+        <legend>Preferred Contact Method:</legend>
+        <input type="radio" id="contactEmail" name="contactMethod" value="Email">
+        <label for="contactEmail">Email</label>
+        <input type="radio" id="contactPhone" name="contactMethod" value="Phone">
+        <label for="contactPhone">Phone</label>
+      </fieldset>
+  
+      <!-- Checkboxes -->
+      <fieldset>
+        <legend>Services Interested:</legend>
+        <input type="checkbox" id="service1" name="service1" value="Web Development">
+        <label for="service1">Web Development</label>
+        <input type="checkbox" id="service2" name="service2" value="SEO">
+        <label for="service2">SEO</label>
+        <input type="checkbox" id="service3" name="service3" value="Graphic Design">
+        <label for="service3">Graphic Design</label>
+      </fieldset>
+  
+      <!-- Textarea -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+  
+      <!-- Submit Button -->
+      <button type="submit">Send</button>
+    </form>
+  </section>
+    
+    <section id="locations">
+      
+      <div class="country-container">
+        <div class="country-group uk">
+         
+          <div class="location-info">
+            <div class="location-card">
+              <h4>London</h4>
+              <p>Peoples mission hall</p>
+              <h5>Aldgate, Whitechapel</h5>
+              <h6>Post code: E1 1HH</h6>
+              <p>Operating Hours: 9am - 5pm</p>
+              <p>Contact: +44 20 7946 0958</p>
+              <button class="get-directions"><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.213199468217!2d-0.067419!3d51.5168246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d2334fd8f09%3A0x5449a31e82ae11e7!2sx%2Bwhy%2C%20People&#39;s%20Mission%20Hall!5e0!3m2!1sen!2suk!4v1696855428027!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank">Get Directions</a></button>
+            </div>
+            <div class="location-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.213199468217!2d-0.067419!3d51.5168246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d2334fd8f09%3A0x5449a31e82ae11e7!2sx%2Bwhy%2C%20People&#39;s%20Mission%20Hall!5e0!3m2!1sen!2suk!4v1696855428027!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- ... other countries ... -->
+      </div>
+    </section>
+    
+    
+    <footer>
+      <div class="footer-container">
+        <div class="newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form id="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+    <script src="app.js"></script>
+    
+  
+</body>
+</html>
